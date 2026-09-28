@@ -48,9 +48,12 @@ else:
 
 
 
-number = int(input('gimme a num - '))
-
-for i in range(1, number+1):
-    if number%(i) == 0:
-        print (i)
-
+n1 = int(input('gimme a num - '))
+n2 = int(input('gimme anotha num - '))
+def factor(x,y):
+    factorlist = []
+    for i in range(1, n1+1):
+        if x% (i) == 0 and y % (i) == 0:
+            factorlist.append(i)
+    print(factorlist[-1])
+print(factor(n1, n2)(100000000000000))
