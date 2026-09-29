@@ -56,4 +56,4 @@ def factor(x,y):
         if x% (i) == 0 and y % (i) == 0:
             factorlist.append(i)
     print(factorlist[-1])
-print(factor(n1, n2)(100000000000000))
+factor(n1, n2)
