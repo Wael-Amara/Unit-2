@@ -57,3 +57,5 @@ def factor(x,y):
             factorlist.append(i)
     print(factorlist[-1])
 factor(n1, n2)
+
+
